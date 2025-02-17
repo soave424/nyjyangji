@@ -4,6 +4,8 @@ import os
 from datetime import datetime
 import pytz
 
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+
 # CSV 파일 경로 설정
 CSV_FILE = "maintenance_requests.csv"
 
