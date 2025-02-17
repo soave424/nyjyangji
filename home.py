@@ -1,6 +1,12 @@
 import streamlit as st
 
 st.title("남양주양지초등학교")
+
+option_menu = st.sidebar.selectbox(
+    'Menu',
+     ('페이지1', '페이지2', '페이지3'))
+
+
 with st.sidebar:
     choice = option_menu("Menu", ["페이지1", "페이지2", "페이지3"],
                          icons=['house', 'kanban', 'bi bi-robot'],
