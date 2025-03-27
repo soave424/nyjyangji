@@ -11,7 +11,7 @@ def main():
 
     # IFRAME으로 구글 시트 임베드
     st.components.v1.iframe(sheet_url, height=600,
-                            scrolling=True, width=1200)
+                            scrolling=True, width=1600)
 
 
 if __name__ == '__main__':
